@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-proxyserver",
+  "version": "1.0.0",
+  "description": "a pure nodejs proxy server to test a live website with custom modifications locally",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjanc/nodejs-proxyserver.git"
+  },
+  "keywords": [
+    "nodejs",
+    "proxy",
+    "server",
+    "https"
+  ],
+  "author": "Arjan Ceelen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjanc/nodejs-proxyserver/issues"
+  },
+  "homepage": "https://github.com/arjanc/nodejs-proxyserver#readme",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "request": "^2.88.2"
+  }
+}
